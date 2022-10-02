@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+ul{
+    list-style: none;
+    align-items: center;
+}
+
+
+.wrapperMain{
+    box-sizing: border-box;
+    
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+
+li{
+    font-size: 14px;
+    font-weight: 600;
+    width: 150px;
+    height: 160px;
+    background-color: aqua;
+    border: 1px solid rgb(83, 82, 82);
+    color: rgb(126, 122, 122);
+    background-color: rgb(26, 23, 20);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+li span{
+    font-size: 35px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.wrapperMain{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.mainBackground{
+    width: 1548px;
+    height: 648px;
+    position: relative;
+}
+
+
+.request h6{
+    font-size: 18px;
+    position: absolute;
+    top: 640px;
+    left: 35%;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 5;
+    transition: 1s;
+}
+
+
+
+.request_child{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(78, 74, 71);
+    position: absolute;
+    top: 655px;
+    left: 60%;
+    z-index: 0;
+    transition: 1s;
+}
+
+
+
+.request,h6:hover {
+    left: 43%;
+    transition: 1s;
+  }
+  
+  .request:hover > .request_child {
+    left: 40%;
+    width: 450px;
+    transition: 1s;
+  }
+  
+
+
+
+
+
+.overlay{
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 30%;
+}
+
+
+.modal{
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    top: 220px;
+    left: 35%;
+    padding: 40px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 15px;
+    width: 500px;
+    height: 280px;
+}
+
+.modal span{
+    font-size: 25px;
+    color: rgb(214, 213, 213);
+    margin-left: 70px;
+    
+
+}
+
+.closeModal{
+    position: relative;
+    top: -25px;
+    left: 470px;
+    color: rgb(196, 50, 50);
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.d-flex{
+    padding-right: 10px;
+}
+
+
+input{
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-bottom: 0.7px solid rgb(66, 99, 243);
+    margin-left: 50px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    outline: none;
+    color: rgb(214, 214, 214);
+}
+
+button{
+    margin-top: 45px;
+    margin-left: 350px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    color: rgb(214, 214, 214);
+    background-color:  rgb(66, 99, 243);
+    border: none;
+}
+
+button:hover{
+    background-color:  rgb(94, 122, 248);
+}
+
+
+.modal_thx{
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    top: 220px;
+    left: 35%;
+    padding: 40px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 15px;
+    width: 500px;
+    height: 280px;
+}
+.modal_span{
+    font-size: 25px;
+    color: rgb(214, 213, 213);
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.modal_btn{
+    position: relative;
+     top: 150px;
+     left: -125px;
+}

@@ -1,0 +1,96 @@
+
+
+.wrapperAbout{
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.aboutRequest h6{
+    font-size: 13px;
+    color: rgb(238, 237, 237);
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 5;
+    transition: 3s;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    
+}
+
+
+
+.aboutRequest_child{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(78, 74, 71);
+    z-index: 0;
+    transition: 3s;
+}
+
+
+
+.aboutRequest,h6:hover {
+    transition: 2s;
+  }
+  
+  
+
+  .d-felx-shef{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    left: -20px;
+    
+  }
+
+  .d-felx-shef span{
+    background-color: rgb(93, 119, 235);
+    padding: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .aboutP{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    position: absolute;
+    top: 1345px;
+    color: rgb(230, 225, 225);
+  }
+
+  .d-flex-left{
+    margin-top: 25px;
+    position: relative;
+  }
+
+  .wrapperAboutRight{
+    width: 600px;
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+    height: 600px;
+    margin-top: 25px;
+  }
+
+  .bsLab{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(63, 61, 61);
+  }
+
+  .wrapperAboutRight p{
+    font-size: 19px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 1,5px;
+  }
+
+  

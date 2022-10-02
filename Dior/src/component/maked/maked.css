@@ -1,0 +1,65 @@
+.makedWrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.makedLeftSide h3{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+
+.makedRightSide{
+    position: relative;
+}
+
+
+
+.makedShowServices h4{
+    font-size: 18px;
+    color: rgb(66, 99, 243);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 0;
+    transition: 3s;
+    position: absolute;
+    right: 150px;
+    width: 390px
+}
+
+
+
+.makedShowServices_child{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(233, 233, 233);
+    z-index: 0;
+    transition: 3s;
+}
+
+
+
+.makedShowServices,h4:hover {
+    right: 20px;
+    transition: 2s;
+    color: #fff;
+  }
+  
+  .makedShowServices:hover > .makedShowServices_child {
+    background-color: rgb(93, 119, 235);
+    width: 450px;
+    transition: 2s;
+  }
+
+
+  .makedWrapperUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  

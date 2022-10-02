@@ -1,0 +1,49 @@
+.cardFirst{
+    width: 370px;
+    height: 150px;
+    background-color: rgb(94, 120, 233);
+    border-radius: 7px;
+    padding: 30px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.cardFirst:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.cardTitle{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.detailed{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+    color: rgb(253, 253, 253);
+    margin-bottom: 30px;
+}
+
+.cardFirst text{
+    font-size: 15px;
+    color: rgb(175, 186, 235);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.warpperCards{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    margin: auto;
+}
+
+
